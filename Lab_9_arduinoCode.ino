@@ -34,8 +34,8 @@ void loop()
     if (data == "M2") // motor2
     {
       String data = Serial.readStringUntil('\n');
-      pos1 = data.toInt();
-      servo2.write(pos1);
+      pos2 = data.toInt();
+      servo2.write(pos2);
     }
     
     
